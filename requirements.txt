@@ -1,0 +1,33 @@
+# Core dependencies for CNN-LSTM Network Packet Classification with Qwen2.5-7B Explanations
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.4.0
+scikit-learn>=1.1.0
+
+# XAI Libraries
+shap>=0.42.0
+lime>=0.2.0.1
+
+# LLM Integration
+llama-cpp-python>=0.2.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.64.0
+psutil>=5.9.0
+
+# Development
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.20.0

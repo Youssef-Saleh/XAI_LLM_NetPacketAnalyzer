@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Trained models (regenerate from scripts)
+*.pth
+*.pt
+*.pkl
+*.npz
+*.npy
+*.bin
+checkpoints/
+
+# Datasets (large, download separately)
+Data/
+*.zip
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.lot
+*.lof
+*.loa
+*.bcf
+*.equ
+*.run.xml
+*.synctex.gz
+
+# IDE
+.vscode/
+.idea/
+
+# Working/scratch
+*_log.txt
+*_results.json
+*_tracker.json
+smoke_test_*.txt
